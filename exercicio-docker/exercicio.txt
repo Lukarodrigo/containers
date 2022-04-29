@@ -1,0 +1,7 @@
+Criar um Dockerfile
+criar um arquivo log.txt com a data atual no hospedeiro
+utilizar a imagem da distribuição de preferência
+criar um volume /data no container
+Executar o comando de criação de um diretório ‘logs’ dentro do /data
+adicionar o arquivo log.txt dentro do /data/logs
+Criar uma variável com seu nome
