@@ -1,0 +1,5 @@
+FROM alpine
+VOLUME /data 
+RUN mkdir data/logs
+ADD log.txt /data/logs/
+ENV nome=Luka
