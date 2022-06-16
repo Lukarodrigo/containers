@@ -31,7 +31,7 @@ jobs:
         run: echo Hello, world!
   create_dir: 
     runs-on: ubuntu-latest
-    needs: scan_scurity
+    needs: scan_security
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
